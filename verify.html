@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Paystack Form</title>
+</head>
+
+<body>
+    <form>
+        <div class="form-wrapper">
+            <h1>Paystack Form</h1>
+            <div class="form-group">
+                <div class="form-input">
+                    <label for="name">NAME</label>
+                    <input type="text" placeholder="e.g John Doe" id="fullName">
+                </div>
+                <div class="form-input">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" placeholder="e.g John@example.com" id="email">
+                </div>
+                <div class="form-input">
+                    <label for="account">ACCOUNT NUMBER</label>
+                    <input type="text" placeholder="e.g 12345678" id="account_number">
+                </div>
+                <div class="form-button">
+                    <button type="submit" id="verify-btn">VERIFY ACCOUNT NUMBER</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
